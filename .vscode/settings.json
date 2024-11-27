@@ -1,0 +1,20 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "python.analysis.importFormat": "relative",
+    "notebook.formatOnSave.enabled": true,
+    "notebook.defaultFormatter": "ms-python.black-formatter",
+    "mypy-type-checker.args": [
+        "--enable-incomplete-feature=NewGenericSyntax"
+    ],
+    "black-formatter.args": [
+        "--line-lenjgth",
+        "120"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true
+    }
+}

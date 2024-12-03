@@ -17,7 +17,7 @@ dev-dependencies = [
 #src = ["my_project"] # TODO: if your code is in a subdirectory, change this
 
 [tool.ruff.lint]
-select = ["E", "F", "I001", "TID"]
+select = ["E", "F", "I001"]
 
 [tool.ruff.format]
 quote-style = "double"
